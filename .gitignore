@@ -1,0 +1,11 @@
+node_modules
+coverage
+module_temp
+build
+deploy
+lambdaversion.txt
+package-lock.json
+yarn.lock
+.idea/
+__tests__/coverage
+test/manual_tests/waybill_result.pdf
