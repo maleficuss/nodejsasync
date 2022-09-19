@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const {Worker} = require('worker_threads')
-router.get('/forkJob', async (req, res) => {
+router.get('/workerThread', async (req, res) => {
     const start = new Date();
     return Promise.all([
         popChildProcess(1),
